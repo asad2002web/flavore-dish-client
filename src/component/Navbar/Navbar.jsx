@@ -1,40 +1,41 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <ul className="mx-20 divide-y">
       <li className="py-2 ">
-        <NavLink
+        <Link
           className={({ isActive }) => isActive && "text-cyan-600 duration-200"}
-          to="/"
+          to={"/"}
         >
           Home
-        </NavLink>
+        </Link>
       </li>
       <li className="py-2">
-        <NavLink
+        <Link
           className={({ isActive }) => isActive && "text-cyan-600 duration-200"}
-          to="/apply"
+          to={"/chart"}
         >
-          Applyd Jobs
-        </NavLink>
+          Statistics
+        </Link>
       </li>
       <li className="py-2">
-        <NavLink
+        <Link
           className={({ isActive }) => isActive && "text-cyan-600 duration-200"}
-          to="/chart"
+          to={"/apply"}
         >
-          Staticks
-        </NavLink>
+          Applied Jobs
+        </Link>
       </li>
       <li className="py-2">
-        <NavLink
+        <Link
           className={({ isActive }) => isActive && "text-cyan-600 duration-200"}
-          to="/blog"
+          to={"/blog"}
         >
           Blog
-        </NavLink>
+        </Link>
+        
       </li>
     </ul>
   );

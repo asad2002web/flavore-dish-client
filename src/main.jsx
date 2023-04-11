@@ -4,12 +4,32 @@ import App from './App'
 import './index.css'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import ErrorPage from './component/ErrorPage'
+import MarksChart from './component/MarksChart/MarksChart'
+import Bunner from './component/Bunner/Bunner'
 
 const route = createBrowserRouter([
   {
     path:'/',
     element: <App></App>,
-    errorElement: <ErrorPage></ErrorPage>
+    errorElement: <ErrorPage></ErrorPage>,
+    children: [
+      {
+        path: '/',
+        element: <Bunner></Bunner>
+      },
+      {
+        path: 'apply',
+        element: <h3>ok</h3>
+      },
+      {
+        path: 'chart',
+        element: <MarksChart></MarksChart>
+      },
+      {
+        path: 'blog',
+        element: <h2>Blog</h2>
+      }
+    ]
   }
 ])
 

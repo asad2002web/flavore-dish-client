@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
-import Navbar from "../Navbar/Navbar";
 import Logo from '../../assets/Logo/JobScape.png'
+import Navbar from "../Navbar/Navbar";
 
 const Header = () => {
   const [openMenu, setOpenMenu] = useState(true);
@@ -35,28 +35,28 @@ const Header = () => {
             <li className="px-3">
               <NavLink
                 className={({ isActive }) =>
-                  isActive && " text-cyan-600 duration-200"
+                  isActive && "  text-indigo-400 duration-200"
                 }
-                to="/apply"
+                to="/chart"
               >
-                Applyid Job
+                Statistics
               </NavLink>
             </li>
 
             <li className="px-3">
               <NavLink
                 className={({ isActive }) =>
-                  isActive && " text-cyan-600 duration-200"
+                  isActive && "  text-indigo-400 duration-200"
                 }
-                to="/chart"
+                to="/apply"
               >
-                Statics
+                Applied Jobs
               </NavLink>
             </li>
             <li className="px-3">
               <NavLink
                 className={({ isActive }) =>
-                  isActive && " text-cyan-600 duration-200"
+                  isActive && "  text-indigo-400 duration-200"
                 }
                 to="/blog"
               >
@@ -89,7 +89,7 @@ const Header = () => {
 
           {!openMenu && (
             <div className="bg-white shadow-xl absolute top-20 right-0 w-full py-5  z-10  text-4 font-bold">
-              <Navbar></Navbar>
+            <Navbar></Navbar>
             </div>
           )}
         </ul>
