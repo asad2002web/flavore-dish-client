@@ -1,0 +1,31 @@
+[
+  {
+    "id": 1,
+    "job_logo": "https://i.ibb.co/cTm5fnx/social-media-1.png",
+    "job_name": "Web Development",
+    "available_job": 150,
+    "job_description": "Develop web applications using HTML, CSS, and JavaScript"
+  },
+  {
+    "id": 2,
+    "job_logo": "https://i.ibb.co/48rXtML/business-1.png",
+    "job_name": "Mobile Development",
+    "available_job": 200,
+    "job_description": "Develop mobile applications for iOS and Android platforms"
+  },
+  {
+    "id": 3,
+    "job_logo": "https://i.ibb.co/4NN1BWB/chip-1.png",
+    "job_name": "Data Science",
+    "available_job": 350,
+    "job_description": "Analyze and interpret complex data sets to derive insights and make data-driven decisions"
+  },
+  {
+    "id": 4,
+    "job_logo": "https://i.ibb.co/6RDFq2d/accounts-1.png",
+    "job_name": "UX/UI Design",
+    "available_job": 120,
+    "job_description": "Design intuitive user interfaces and engaging user experiences for digital products"
+  }
+]
+

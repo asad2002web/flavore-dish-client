@@ -1,0 +1,31 @@
+[
+    {
+      "id": 1,
+      "logo": "company1.png",
+      "jobTitle": "Web Developer",
+      "company": "ABC Company",
+      "address": "123 Main St, Anytown, USA",
+      "salaryRange": "$50,000 - $80,000",
+      "jobDescription": "We are seeking a skilled web developer to join our team...",
+      "jobResponsibility": "Develop and maintain web applications using HTML, CSS, JavaScript...",
+      "educationalRequirements": "Bachelor's degree in Computer Science or a related field...",
+      "experiences": "At least 3 years of experience in web development...",
+      "phone": "123-456-7890",
+      "email": "webdev@abccompany.com"
+    },
+    {
+      "id": 2,
+      "logo": "company2.png",
+      "jobTitle": "Software Engineer",
+      "company": "XYZ Corporation",
+      "address": "456 Elm St, Anytown, USA",
+      "salaryRange": "$60,000 - $100,000",
+      "jobDescription": "We are looking for an experienced software engineer to...",
+      "jobResponsibility": "Design and develop software applications using Java, Python, and C++...",
+      "educationalRequirements": "Master's degree in Computer Science or a related field...",
+      "experiences": "At least 5 years of experience in software engineering...",
+      "phone": "555-555-5555",
+      "email": "swengineer@xyzcorp.com"
+    }
+  ]
+  
