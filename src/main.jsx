@@ -6,6 +6,7 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import ErrorPage from './component/ErrorPage'
 import MarksChart from './component/MarksChart/MarksChart'
 import Home from './component/Home/Home'
+import FeaturesDetails from './component/FeaturesDetails/FeaturesDetails'
 
 const route = createBrowserRouter([
   {
@@ -25,6 +26,10 @@ const route = createBrowserRouter([
       {
         path: 'chart',
         element: <MarksChart></MarksChart>
+      },
+      {
+        path: "/details",
+        element: <FeaturesDetails></FeaturesDetails>,
       },
       {
         path: 'blog',
