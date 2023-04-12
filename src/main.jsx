@@ -10,6 +10,7 @@ import FeaturesDetails from './component/FeaturesDetails/FeaturesDetails'
 import AppliedJobs from './component/AppliedJobs/AppliedJobs'
 import { productsAndCartData } from './component/utilities/selectJobs'
 import Blog from './component/Blog/Blog'
+import FeaturesCard from './component/FeaturesCard/FeaturesCard'
 
 const route = createBrowserRouter([
   {

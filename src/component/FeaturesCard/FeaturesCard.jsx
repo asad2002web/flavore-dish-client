@@ -7,13 +7,7 @@ const FeaturesCard = ({ features }) => {
     const navigate = useNavigate();
   
     const {
-      Exeriance,
-      Educational_requirnment,
-      Adress,
       Location,
-      job_descrioption,
-      job_responsibility,
-      phone,
       picture,
       id,
       title,

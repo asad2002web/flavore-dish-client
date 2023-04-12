@@ -1,5 +1,4 @@
 import React, { PureComponent } from 'react';
-import { useLoaderData } from 'react-router-dom';
 import {
   ScatterChart,
   Scatter,
