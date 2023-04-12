@@ -1,31 +1,111 @@
 [
-    {
-      "id": 1,
-      "logo": "company1.png",
-      "jobTitle": "Web Developer",
-      "company": "ABC Company",
-      "address": "123 Main St, Anytown, USA",
-      "salaryRange": "$50,000 - $80,000",
-      "jobDescription": "We are seeking a skilled web developer to join our team...",
-      "jobResponsibility": "Develop and maintain web applications using HTML, CSS, JavaScript...",
-      "educationalRequirements": "Bachelor's degree in Computer Science or a related field...",
-      "experiences": "At least 3 years of experience in web development...",
-      "phone": "123-456-7890",
-      "email": "webdev@abccompany.com"
-    },
-    {
-      "id": 2,
-      "logo": "company2.png",
-      "jobTitle": "Software Engineer",
-      "company": "XYZ Corporation",
-      "address": "456 Elm St, Anytown, USA",
-      "salaryRange": "$60,000 - $100,000",
-      "jobDescription": "We are looking for an experienced software engineer to...",
-      "jobResponsibility": "Design and develop software applications using Java, Python, and C++...",
-      "educationalRequirements": "Master's degree in Computer Science or a related field...",
-      "experiences": "At least 5 years of experience in software engineering...",
-      "phone": "555-555-5555",
-      "email": "swengineer@xyzcorp.com"
-    }
-  ]
-  
+  {
+    "id": "1",
+    "picture": "https://i.ibb.co/2vG3rPy/google-1-1-1.png",
+    "job_title": "Technical database Ingineer",
+    "title": "Google LLC",
+    "job_type": "Onsit",
+    "duty_time": "full Time",
+    "Location": "dhaka Bangladesh",
+    "salary": "100k-150k",
+    "Adress": "02Dhanmondi 32, Sukrabad Dhaka, Bangladesh",
+    "phone": "01750-00 00 00",
+    "gmail": "info@gmail.com",
+    "Educational_requirnment": "Bachelor degree to complete any reputational university.",
+    "job_descrioption": "effective data collection and analysis will allow you to direct scarce resources where they are most needed.you to direct scarce resources where they are most needed. This data can then be used in training Artificial Intelligence models to perform various business analytics tasks for responsible, unbiased machine learning.",
+
+    "job_responsibility": "Consent signed by the minor participant and the parent/guardianAble to access web-based tools via Android or iOS phone devices (no desktops or laptops allowed)Google Account for the minor participant (Parents / Guardians must create one for their child if they do not have one)",
+    "Exeriance": "2-3 Years"
+  },
+  {
+    "id": "2",
+    "picture": "https://i.ibb.co/p28LHrt/netflix-4-1.png",
+    "job_title": "Technical database Ingineer",
+    "title": "Netflix",
+    "Location": "dhaka Bangladesh",
+    "salary": "100k-120k",
+    "job_type": "Remote",
+    "duty_time": "full Time",
+    "Adress": "02Uttara 32,  Dhaka, Bangladesh",
+    "phone": "01750-00 00 99",
+    "gmail": "netflix@gmail.com",
+    "Educational_requirnment": "Bachelor degree to complete any public university.",
+    "job_descrioption": "This team is focused on blockchain technology and business, which is a reliable protocol for DeFi consumers. Following these guidelines, we are always creating the best powerful product for the community.",
+
+    "job_responsibility": "In charge of managing and operating projects that are related to products, including product optimization.Independently complete product life cycle tasks such as requirement analysis, prototype design, documentation of product requirements, and product development and iteration.",
+    "Exeriance": "1-2 Years"
+  },
+
+  {
+    "id": "3",
+    "picture": "https://i.ibb.co/Mp0YMBQ/Group-10021.png",
+    "job_title": "Ui/Ux Desgineer",
+    "title": "AirBnB",
+    "Location": "savar Bangladesh",
+    "salary": "40k-80k",
+    "job_type": "Onsit",
+    "duty_time": "full Time",
+    "Adress": "savar32,  Dhaka, Bangladesh",
+    "phone": "01700-00 888 99",
+    "gmail": "tagline@gmail.com",
+    "Educational_requirnment": "Bachelor's degree Computer Science, human-computer interaction, or a related field",
+    "job_descrioption": "Design intuitive, user-friendly interfaces that,Ensure designs areresponsive and optimized for different devices and screen sizes Develop wireframes, prototypes, and user flows to effectively communicate interaction and design ideas ",
+
+    "job_responsibility": "Design, develop, and maintain software applications using .NET Core, ASP.NET CoreProven experience as a UI/UX Designer with a strong portfolio showcasing your work, and C#. Troubleshoot and debug software issues Provide technical leadership and mentorship to junior software engineers Participate in code and design reviews to ensure the codebase meets quality standards Create and maintain comprehensive documentationProficiency in design tools such as Sketch, Adobe XD, Figma, or similar",
+    "Exeriance": "1-3 Years"
+  },
+  {
+    "id": "4",
+    "picture": "https://i.ibb.co/2vG3rPy/google-1-1-1.png",
+    "job_title": "Software Engennir",
+    "title": "Google LLC",
+    "Location": "mirpur Bangladesh",
+    "salary": "80k-100k",
+    "job_type": "Remote",
+    "duty_time": "full Time",
+    "Adress": "Uttara 10,  Dhaka, Bangladesh",
+    "phone": "01700-00 00 99",
+    "gmail": "gogool@gmail.com",
+    "Educational_requirnment": "BSC in Computer Ingeneering",
+    "job_descrioption": "IQVIA is a leading global provider of information, innovation, and technology solutions to the healthcare industry. We help our clients make better decisions by providing actionable resultsthrough innovative technology,improving patient outcomes.",
+
+    "job_responsibility": "Design, develop, and maintain software applications using .NET Core, ASP.NET Core, and C#. Troubleshoot and debug software issues Provide technical leadership and mentorship to junior software engineers Participate in code and design reviews to ensure the codebase meets quality standards Create and maintain comprehensive documentation",
+    "Exeriance": "1-3 Years"
+  },
+  {
+    "id": "5",
+    "picture": "https://i.ibb.co/TBJVkzY/tesla-9-1.png",
+    "job_title": "Graphic Designer",
+    "title": "Tesla",
+    "Location": "Dhammondi Bangladesh",
+    "salary": "40k-60k",
+    "Adress": "dhanmondi32, Bangladesh",
+    "phone": "01700-00 99",
+    "job_type": "Remote",
+    "duty_time": "full Time",
+    "gmail": "info3@gmail.com",
+    "Educational_requirnment": "Bachelor's degree Computer Science, human-computer interaction, or a related field",
+    "job_descrioption": "We are truly focused on giving you the greatest beauty experience you can find. Once you become part of our family, you will never want to go elsewhere.Why? Because we’re here to make you the happiest customer in the world. We treat you just like you’re one of us at Vivi Salon.",
+
+    "job_responsibility": "Create high-quality, engaging content for all outbound and inbound marketing communications.Designer with a strong portfolio showcasing your work, and C#. Troubleshoot and 3D render (Render the 3D video slideshow for casting)debug software issues Provide technical leadership and mentorship to junior software engineers Create graphics for salon promotion, services photos to post on Social Media Platforms",
+    "Exeriance": "1-4 Years"
+  },
+  {
+    "id": "6",
+    "picture": "https://i.ibb.co/tz6VKcT/image-1.png",
+    "job_title": "Commoinication Designer",
+    "title": "FilMix",
+    "Location": "Dhammondi Bangladesh",
+    "salary": "40k-60k",
+    "job_type": "Onsit",
+    "duty_time": "full Time",
+    "Adress": "dhanmondi32, Bangladesh",
+    "phone": "01700-00 99",
+    "gmail": "filmix@gmail.com",
+    "Educational_requirnment": "Bachelor's degree Computer Science, human-computer interaction, or a related field",
+    "job_descrioption": "We are truly focused on giving you the greatest beauty experience you can find. Once you become part of our family, you will never want to go elsewhere.Why? Because we’re here to make you the happiest customer in the world. We treat you just like you’re one of us at Vivi Salon.",
+
+    "job_responsibility": "Troubleshoot and 3D render (Render the 3D video slideshow for casting)debug software issues Provide technical leadership and mentorship to junior software engineers Create graphics for salon promotion, services photos to post on Social Media Platforms",
+    "Exeriance": "Minimum 4 years"
+  }
+]
