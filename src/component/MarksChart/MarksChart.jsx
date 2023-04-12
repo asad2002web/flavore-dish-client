@@ -1,4 +1,5 @@
 import React, { PureComponent } from 'react';
+import { useLoaderData } from 'react-router-dom';
 import {
   ScatterChart,
   Scatter,
@@ -58,7 +59,6 @@ const Chart = () => {
 
         },
     ];
-   
     const sum = data.reduce((accumulator, currentValue) => {
       return accumulator + currentValue.marks;
     }, 0);
@@ -67,17 +67,10 @@ const Chart = () => {
   
     return (
      <div>
-       
-     
-     
-      <div className='text-center'>
-      <h3 className='text-2xl font-bold  pt-5'>ThreeDimScatterChart</h3>
+      <div className='text-center mt-20'>
       <h5 className='text-2xl font-bold'>avarage Mark :{average}</h5>
       </div>
-    
-      
         <div className='py-10 flex justify-center items-center'>
-         
            <ResponsiveContainer width="60%" height={400}>
           <ScatterChart
             margin={{
@@ -96,7 +89,6 @@ const Chart = () => {
             <Scatter name="assignment marks" data={data} fill="#8884d8" shape="star" />
           </ScatterChart>
         </ResponsiveContainer>
-       
         </div>
      </div>
       );

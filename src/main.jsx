@@ -7,6 +7,9 @@ import ErrorPage from './component/ErrorPage'
 import MarksChart from './component/MarksChart/MarksChart'
 import Home from './component/Home/Home'
 import FeaturesDetails from './component/FeaturesDetails/FeaturesDetails'
+import AppliedJobs from './component/AppliedJobs/AppliedJobs'
+import { productsAndCartData } from './component/utilities/selectJobs'
+import Blog from './component/Blog/Blog'
 
 const route = createBrowserRouter([
   {
@@ -21,11 +24,12 @@ const route = createBrowserRouter([
       },
       {
         path: 'apply',
-        element: <h3>ok</h3>
+        element: <AppliedJobs></AppliedJobs>,
+        loader:productsAndCartData
       },
       {
         path: 'chart',
-        element: <MarksChart></MarksChart>
+        element: <MarksChart></MarksChart>,
       },
       {
         path: "/details",
@@ -33,7 +37,7 @@ const route = createBrowserRouter([
       },
       {
         path: 'blog',
-        element: <h2>Blog</h2>
+        element: <Blog></Blog>
       }
     ]
   }
