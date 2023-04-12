@@ -66,9 +66,9 @@ const Header = () => {
           </ul>
         </div>
 
-        <button className="py-3 px-5 bg-gradient-to-r from-blue-400 to-indigo-600 lg:block text-white rounded-md text-xl hidden">
+        <Link className="py-3 px-5 bg-gradient-to-r from-blue-400 to-indigo-600 lg:block text-white rounded-md text-xl hidden">
           Start Apply
-        </button>
+        </Link>
 
         <ul className="lg:hidden block">
           {openMenu ? (
