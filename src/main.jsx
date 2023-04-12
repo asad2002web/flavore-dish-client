@@ -5,7 +5,7 @@ import './index.css'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import ErrorPage from './component/ErrorPage'
 import MarksChart from './component/MarksChart/MarksChart'
-import Bunner from './component/Bunner/Bunner'
+import Home from './component/Home/Home'
 
 const route = createBrowserRouter([
   {
@@ -15,7 +15,7 @@ const route = createBrowserRouter([
     children: [
       {
         path: '/',
-        element: <Bunner></Bunner>
+        element: <Home></Home>
       },
       {
         path: 'apply',
