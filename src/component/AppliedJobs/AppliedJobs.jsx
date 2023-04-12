@@ -41,7 +41,7 @@ const AppliedJobs = () => {
       console.log(filter);
       setDatas(filter);
     } else if (value == "Onsit") {
-      const filter = fetureData.filter((d) => d.job_type == "Onsit");
+      const filter = fetureData.filter((d) => d.job_type == "Onsite");
       console.log(filter);
       setDatas(filter);
     }
@@ -54,11 +54,11 @@ const AppliedJobs = () => {
           onChange={handleFilter}
           className="select w-44 max-w-xs bg-slate-100"
         >
-          <option selected>
+          <option disabled selected>
             Filter By
           </option>
           <option value="Remote">Show Remote Job</option>
-          <option value="Onsit">Show ONsit Job</option>
+          <option value="Onsit">Show onsite Job</option>
         </select>
       </div>
       <div className="py-20 justify-center flex flex-col gap-5 ">
